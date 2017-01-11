@@ -226,14 +226,14 @@ $('.select-wrap').on('click', 'select', function() {
 var map;
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map_canvas'), {
-		center: {lat: 50.38884855, lng: -4.18216467},
-		zoom: 15,
+		center: {lat: 50.39600309, lng: -4.17861342},
+		zoom: 14,
 		scrollwheel: false,
 		mapTypeControl: false
 	});
 	var image = 'img/point.png';
 	var beachMarker = new google.maps.Marker({
-		position: {lat: 50.3869343, lng: -4.1895273},
+		position: {lat: 50.39494981, lng: -4.18067336},
 		map: map,
 		icon: image
 	});
