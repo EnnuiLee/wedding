@@ -235,7 +235,12 @@ function initMap() {
 	var beachMarker = new google.maps.Marker({
 		position: {lat: 50.39494981, lng: -4.18067336},
 		map: map,
-		icon: image
+		icon: image});
+		var image = 'img/point.png';
+		var beachMarker = new google.maps.Marker({
+			position: {lat: 50.315887, lng: -4.066318},
+			map: map,
+			icon: image
 	});
 }
 /* 8. Gifts list
