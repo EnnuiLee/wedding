@@ -757,6 +757,10 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 }
 /* -3.4. Countdown
 -------------------------------------------------------------- */
+@media screen and (min-width: 0px) and (max-width: 680px) {
+  #timer { display: none; }  /* block it on small screens */
+}
+
 # {
 	position: relative;
 }
