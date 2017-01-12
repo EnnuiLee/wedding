@@ -757,7 +757,7 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 }
 /* -3.4. Countdown
 -------------------------------------------------------------- */
-#timer {
+# {
 	position: relative;
 }
 #timer > div.timer-item {
@@ -802,7 +802,7 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 	}
 }
 #timer .smalltext {
-	color: #646465;
+	color: #FFFFFF;
 	font-size: 1em;
 	line-height: 1.25em;
 	padding-top: 10px;
@@ -810,8 +810,8 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 .digit span {
 	border-width: 1.49px;
 	border-style: solid;
-	border-color: #2d2d31;
-	color: #484846;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
 	width: 52px;
 	height: 52px;
 	display: inline-block;
