@@ -226,8 +226,8 @@ $('.select-wrap').on('click', 'select', function() {
 var map;
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map_canvas'), {
-		center: {lat: 50.39600309, lng: -4.17861342},
-		zoom: 14,
+		center: {lat: 50.352959, lng: -4.110451},
+		zoom: 12,
 		scrollwheel: false,
 		mapTypeControl: false
 	});
