@@ -334,6 +334,18 @@ $(window).on('load', function() {
 				start: 12,
 				autoplay: 1
 			}
+			
+/* Instafeed */
+			var feed = new Instafeed
+({
+get: 'tagged',
+tagName: 'mrandmrsforbes2018',
+resolution: 'low_resolution',
+accessToken: '1579950047.54da896.649dfee9ed9e4f34a9c8ed073bc40df7',
+sortBy: 'most-recent',
+limit: '24'
+});
+feed.run();
 		});
 	}
 });
