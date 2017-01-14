@@ -766,7 +766,11 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
   #timer { display: none; }  /* block it on small screens */
 }
 
-@media screen and (min-width: 680px) and (max-width: 1600px) {
+@media screen and (min-width: 680px) and (max-width: 799px) {
+  #timer { margin-top: 525px; }  /* block it on small screens */
+}
+
+@media screen and (min-width: 800px) and (max-width: 1600px) {
   #timer { margin-top: 540px; }  /* block it on small screens */
 }
 
