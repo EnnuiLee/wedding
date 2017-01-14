@@ -323,15 +323,5 @@ if (blog) {
 		}
 	});
 }
-/* 10. Youtube video BG
-==========================================*/
-$(window).on('load', function() {
-	if ($('div').is($('#background-video'))) {
-		$('#background-video').YTPlayer({
-			fitToBackground: true,
-			videoId: 'fKiFfHkDAKg',
-			playerVars: {
-				start: 12,
-				autoplay: 1
-			}
+
 			
