@@ -2578,3 +2578,11 @@ footer p {
 		display: none;
 	}
 }
+
+#rcorners {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 80%;
+    height: 80%;    
+}
