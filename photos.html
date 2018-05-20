@@ -102,7 +102,22 @@ tagName: 'mrandmrsforbes2018',
 resolution: 'low_resolution',
 accessToken: '1579950047.54da896.649dfee9ed9e4f34a9c8ed073bc40df7',
 sortBy: 'most-recent',
-limit: '24'
+limit: '24',
+filter: function(image) {
+            var blockedUsernames = [
+            'tyne_drinkwater',
+            'otherreallybaduser'
+            ];
+
+            // check for blocked users
+            for (var i=0; i<blockedUsernames.length; i++) {
+               if (image.user.username === blockedUsernames[i]) {
+                 return false;
+               }
+            }
+            return true;
+        }
+	
 });
 feed.run();
 </script>
